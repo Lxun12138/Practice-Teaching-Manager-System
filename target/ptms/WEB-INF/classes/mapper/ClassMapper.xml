@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.xupt.dao.ClassDao">
+    <insert id="insertClass" parameterType="com.xupt.entity.Class" useGeneratedKeys="true" keyProperty="classId">
+        insert into class(
+        college,
+        profession,
+        classes,
+        class_num)
+        values(
+        #{college},
+        #{profession},
+        #{classes},
+        #{classNum})
+    </insert>
+
+    <delete id="deleteClassById" parameterType="int">
+        delete from class where class_id = #{classId}
+    </delete>
+
+    <select id="qyeryClassById" parameterType="int" resultType="com.xupt.entity.Class">
+        select * from class where class_id = #{classId}
+    </select>
+
+    <update id="updateClass" parameterType="com.xupt.entity.Class">
+        update class set
+        college = #{college},
+        profession = #{profession},
+        classes = #{classes},
+        class_num = #{classNum}
+        where class_id = #{classId}
+    </update>
+
+   <select id="queryClassList" resultType="com.xupt.entity.Class">
+       select * from class order BY class_id desc
+   </select>
+
+</mapper>
