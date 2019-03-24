@@ -1,11 +1,13 @@
 package com.xupt.entity;
 
+import java.io.Serializable;
+
 /**
  * @Auther: liuxun
  * @Date: 2019/3/12
  * @Description:
  */
-public class Course {
+public class Course  implements Serializable {
 
     private int courseId;
     private String courseName;

@@ -7,7 +7,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="695990f3-068d-47d1-91e3-596546f01f12" name="Default" comment="" />
+    <list default="true" id="695990f3-068d-47d1-91e3-596546f01f12" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xupt/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xupt/entity/Course.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xupt/entity/Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="418">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -49,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xupt/entity/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="133">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -93,6 +96,9 @@
       <find>getContextPath</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -101,7 +107,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xupt/controller/dao/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xupt/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xupt/serviceImpl/EmployeeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xupt/entity/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xupt/entity/Course_time_schedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xupt/entity/CourseTimeSchedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xupt/entity/CourseType.java" />
@@ -140,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xupt/dao/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xupt/entity/QueryVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xupt/dao/CourseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xupt/entity/Course.java" />
       </list>
     </option>
   </component>
@@ -182,11 +188,12 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="700" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -471,12 +478,12 @@
       <workItem from="1552457232992" duration="6594000" />
       <workItem from="1552480149371" duration="22000" />
       <workItem from="1552718024702" duration="427000" />
-      <workItem from="1553388669826" duration="7031000" />
+      <workItem from="1553388669826" duration="8014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30447000" />
+    <option name="totallyTimeSpent" value="31430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -501,7 +508,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32954547" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2159091" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.06818182" />
@@ -867,13 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xupt/entity/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xupt/entity/CourseTimeSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -897,8 +897,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xupt/entity/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="418">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xupt/entity/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -992,7 +999,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
